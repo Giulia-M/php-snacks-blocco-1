@@ -74,7 +74,7 @@ $nba = [
                     echo $rosters
                 ?>
             </li>
-            
+
         <?php
         }
         ?>
