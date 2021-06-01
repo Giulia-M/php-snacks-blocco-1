@@ -28,7 +28,7 @@ $validMail = false;
 <body>
     <p>
         <?php
-        if(strlen($name) > 3 && strpos ($mail, "@") && strrpos($mail, ".") && is_numeric($age)) {
+        if(strlen($name) > 3 && strpos ($mail, "@") && strrpos($mail, ".", strpos ($mail, "@")) && is_numeric($age)) {
             
             $validMail = true;
 
